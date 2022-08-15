@@ -3,8 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-     <meta http-equiv = "refresh" content = "2; url = https://jishnujp.me/resume" />
-
     <meta name="description" content="Resume of Jishnu Jayaprakash">
     <meta name="keywords" content="Jishnu, Resume, CV, Portfolio, Jayaprakash">
     <meta name="author" content="Jishnu Jayaprakash">
@@ -15,6 +13,24 @@
 </head>
 
 <body>
+        <nav class = "navbar">
+            <div class="logo"><a href="#">Resume</a></div>
+            <div class="nav__item"><a href="#education">Education</a></div> 
+            <div class="nav__item"><a href="#workshops">Workshops</a></div> 
+            <div class="nav__item"><a href="#projects">Projects</a></div>   
+            <div class="nav__item"><a href="#courses">Other Courses</a></div>    
+            <div class="toggle">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            
+        </nav>
+
+
+    </div>
     <header>
         <img src="/images/profile/DP_1.png" alt="Jishnu Jayaprakash">
         <h1>Jishnu Jayaprakash</h1>
@@ -23,17 +39,17 @@
         <p>mailbox@jishnujp.me</p>
 
     </header>
-    <hr>
+
     <main>
-        <div class="section">
+        <div id="education" class="section">
             <h2>Education</h2>
             <div class="section__sub edu">
                 <h3>Bachelor's in Programming and Data Science.</h3>
                 <div class="edu__school">Indian Institute of Technology, Madras.</div>
-                 <div class="edu__year">(2019 - now)</div>
+                <div class="edu__year">(2020 - now)</div>
             </div>
             <div class="section__sub edu">
-                <h3>Bachelor’s Degree in Electronics & communication B.Tech </h3>
+                <h3>Bachelor’s Degree in Electronics & Communication B.Tech </h3>
                 <div class="edu__school">College of Engineering, Chengannur.</div>
                 <div class="edu__year">(2015 - 2019)</div>
             </div>
@@ -44,36 +60,97 @@
             </div>
         </div>
         <hr>
-        <div class="section">
+        <div id="projects" class="section">
             <h2>Projects</h2>
             <div class="section__sub gitpro">
-                <h3><a href="https://github.com/jishnujp/US_senate_roll_call">US_senate_roll_call</a> </h3>
+                <h3><a href="https://github.com/jishnujp/US_senate_roll_call" target="_blank">US_senate_roll_call</a>
+                </h3>
                 <p class="gitpro__desc">
-                    A descriptive analysis of Roll Call Vote 117th Congress - 1st Session, On the Nomination (Confirmation) of Tiffany P. Cunningham, to be United States Circuit Judge for the Federal Circuit .
+                    A descriptive analysis of Roll Call Vote 117th Congress - 1st Session, on the Nomination
+                    (Confirmation) of Tiffany P. Cunningham, to be United States Circuit Judge for the Federal Circuit .
+                </p>
+            </div>
+            <div class="section__sub proj">
+                <h3><a href="/docs/bdm_capstone.pdf" target="_blank">BDM Capstone Project</a> </h3>
+                <p class="gitpro__desc">
+                    This was a part of the course "Business Data Management" at IITM. I had collected data from a local
+                    business (Avocado Juice Bar) and performed some data analysis and gave business suggestions
+                    according to my descriptive analysis.
+                </p>
+            </div>
+            <div class="section__sub gitpro">
+                <h3><a href="https://github.com/jishnujp/vaccine_search" target="_blank">vaccine_search</a></h3>
+                <p class="gitpro__desc">
+                    A python app to find available slots for covid vaccine(in India) based on some search criterias.
+                    (also has a python wrapper for api setu)
                 </p>
             </div>
 
             <div class="section__sub gitpro">
-                <h3><a href="https://github.com/jishnujp/vaccine_search">vaccine_search</a></h3>
+                <h3><a href="https://github.com/jishnujp/securityTools" target="_blank">securityTools </a> </h3>
                 <p class="gitpro__desc">
-                    A python app to find available slots for covid vaccine(in India) based on some search criterias. (also has a python wrapper for api setu)
-                </p>
-            </div>
-
-            <div class="section__sub gitpro">
-                <h3><a href="https://github.com/jishnujp/securityTools">securityTools </a> </h3>
-                <p class="gitpro__desc">
-                    This is an attempt to make an app that uses the k anonimity model API of haveibeenpwned.com to verify whether a password in already there in the leaked and publically available list.
+                    This is an attempt to make an app that uses the k anonimity model API of haveibeenpwned.com to
+                    verify whether a password in already there in the leaked and publically available list.
                 </p>
             </div>
 
         </div>
+        <hr>
+
+        <div id="courses" class="section">
+            <h2>Other Courses and Certificates</h2>
+            <div class="section__sub cert">
+                <p><a href="https://coursera.org/share/4bcf67532cd1ae69781e51db0bbb3445" target="_blank">
+                        Data Science Maths Skills</a></p>
+                <p><a href="https://coursera.org/share/bd0023b71386ae9c7246bad3d5b566a7" target="_blank">
+                        Data Science Toolbox</a></p>
+                <p><a href="https://archive.nptel.ac.in/content/noc/NOC22/SEM1/Ecertificates/106/noc22-cs30/Course/NPTEL22CS30S4373058402018648.jpg"
+                        target="_blank">
+                        Social Networks
+                    </a></p>
+                <p><a href="/docs/datascience_Foundation.pdf"
+                        target="_blank">
+                        Data Science Foundation
+                    </a></p>
+            </div>
+
+        </div>
+        <hr>
+        <div id="workshops" class="section">
+            <h2>Workshops</h2>
+            <div class="section__sub">
+                <p><a href="/workshop.html#ML_medical">
+                        Machine Learning in Medical imaging
+                    </a></p>
+            </div>
+            <div class="section__sub">
+                <p><a href="/workshop.html#ethical_hacking">
+                        Ethical Hacking
+                    </a></p>
+            </div>
+            <div class="section__sub">
+                <p><a href="/workshop.html#conjura">
+                        Augmented Reality
+                    </a></p>
+            </div>
+            <div class="section__sub">
+                <p><a href="/workshop.html#fossmeet">
+                        FOSSMeet
+                    </a></p>
+            </div>
+            <div class="section__sub">
+                <p><a href="/workshop.html#pycec">
+                        PyCEC
+                    </a></p>
+            </div>
+        </div>
+
     </main>
 
     <footer>
 
     </footer>
-
+<script src="index.js"></script>
 </body>
 
 </html>

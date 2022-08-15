@@ -1,22 +1,91 @@
-body{
+/*body {
+    max-zoom: 100%;
     max-width: 70%;
-    min-width: 40rem;
+    min-width: 350px;
     margin: auto;
     box-shadow: 20px 20px 50px grey;
+    padding:2rem 1rem 2rem 1rem;
+}*/
+
+*{
+    font-family: 'Times New Roman', Times, serif;
 }
 
-header{
-    text-align: center;
+
+.navbar {
+    background-color: rgb(69, 55, 76);
+    padding: 0 15px;
+    font-size: 20px;
+
+  }
+
+.nav__item a{
+    text-decoration: none;
+    color: aliceblue;
 }
-header img{
-    margin-top: 1rem;
+.nav__item a:hover{
+    color:bisque;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    padding: 7.px 10px 7.5px 0;
+    background-color: whitesmoke;
+}
+
+.logo a{
+    font-family: 'Brush Script MT', cursive;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+    color:antiquewhite;
+    padding-bottom: 0;
+    
+}
+
+/* mobile view */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    display: block;
+    padding: 15px 15px;
+}
+
+.nav__item{
+    order:2;
+    width: 100%;
+    text-align: center;
+    display: none;
+    border-bottom: 1px rgb(109, 100, 113) solid;
+}
+
+.active .nav__item{
+    display: block;
+}
+/*---------------------------------------*/
+header {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+header img {
     max-width: 200px;
 }
+
 header p {
     margin-top: 0em;
     margin-bottom: 0em;
 }
-.section{
+
+.section {
     max-width: 90%;
     padding: 2rem 2rem 2rem 2rem;
     margin: auto;
@@ -24,21 +93,28 @@ header p {
 }
 
 
-.section__sub{
+.section__sub {
     max-width: 100%;
     padding-left: 2rem;
 }
-.section__sub h3{
-       margin-bottom: 2px;
-    }
+
+.section__sub h3 {
+    margin-bottom: 2px;
+}
+
+.section__sub a {
+    color: darkblue;
+}
 
 
 .edu__school,
-.edu__year{
+.edu__year {
 
     display: inline;
 }
 
+
+/*
 .gitpro a{
     text-decoration: none;
     color: rgb(111, 56, 16);
@@ -47,4 +123,28 @@ header p {
 .gitpro a:hover{
     text-shadow: 2px 2px 5px grey ;
     font-size: 20px;
+}
+*/
+
+@media all and (min-width:960px){
+
+    body {
+
+        max-width: 70%;
+        min-width: 350px;
+        margin: auto;
+        box-shadow: 20px 20px 50px grey;
+        padding:2rem 1rem 2rem 1rem;
+    }
+    .nav__item{
+        order: 1;
+        position: relative;
+        display: block;
+        width: auto;
+        border-bottom:0px;
+    }
+    .toggle{
+        display: none;
+    }
+
 }

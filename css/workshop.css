@@ -1,0 +1,48 @@
+body{
+    max-zoom: 100%;
+    max-width: 70%;
+    min-width: 350px;
+    margin: auto;
+    box-shadow: 20px 20px 50px grey;
+    padding:2rem 1rem 2rem 1rem;
+
+}
+header{
+    max: width 80%;
+    margin:auto;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.return{
+
+    position: fixed;
+    top:0;
+
+}
+.return a{
+    background-color: rgb(69, 55, 76);
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: aliceblue;
+    box-shadow: 2px 2px 5px rgb(121 94 134);
+}
+.work{
+    padding: 1rem 2rem  1rem 2rem;
+}
+.work h2{
+    padding-left: 1rem;
+}
+.work p{
+    padding: 0rem 2rem  1rem 2rem;
+}
+.work__doc{
+    max-width: 720px;
+    
+    margin: auto;
+}
+.work__doc img{
+    max-width: 100%;
+    min-width: 200px;
+
+    margin: auto;
+}
