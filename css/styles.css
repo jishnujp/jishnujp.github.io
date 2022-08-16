@@ -1,11 +1,8 @@
-/*body {
+body {
     max-zoom: 100%;
-    max-width: 70%;
     min-width: 350px;
-    margin: auto;
-    box-shadow: 20px 20px 50px grey;
-    padding:2rem 1rem 2rem 1rem;
-}*/
+    color:	#303030;
+}
 
 *{
     font-family: 'Times New Roman', Times, serif;
@@ -13,7 +10,7 @@
 
 
 .navbar {
-    background-color: rgb(69, 55, 76);
+    background-color: rgb(109 66 131);
     padding: 0 15px;
     font-size: 20px;
 
@@ -87,44 +84,68 @@ header p {
 
 .section {
     max-width: 90%;
-    padding: 2rem 2rem 2rem 2rem;
-    margin: auto;
+    padding: 1rem 1.2rem;
 
+    margin: auto;
 }
 
-
+.project__desc{
+    margin: 0px;
+}
+h3{
+    margin: 0px;
+    margin-bottom: 0.5em;
+}
+.section__sub{
+    padding:1em 0em 0em 1em;
+}
+.section__sub a {
+    color: rgb(109 66 131);
+    margin-bottom: 0.5em;
+}
 .section__sub {
     max-width: 100%;
-    padding-left: 2rem;
+    text-align: left;
+ 
 }
 
-.section__sub h3 {
-    margin-bottom: 2px;
+.edu h3{
+    margin: 0;
+}
+.course,
+.edu__details{
+    display:flex;
+    height: fit-content;
+
 }
 
-.section__sub a {
-    color: darkblue;
+.course a,
+.edu__school{
+    order:1;
+    width:100%
+
+    
 }
-
-
-.edu__school,
-.edu__year {
-
+.course__name{
     display: inline;
+    
+}
+.uni,
+.edu__year{
+    width: 60%;
+    font-size: small;
+    text-align: right;
+    order:2;
+    font-style: italic;
+    color: darkgrey;
+    height: fit-content;
 }
 
-
-/*
-.gitpro a{
-    text-decoration: none;
-    color: rgb(111, 56, 16);
+.project__desc,
+.course__desc{
+    padding-left: 1em;
 }
 
-.gitpro a:hover{
-    text-shadow: 2px 2px 5px grey ;
-    font-size: 20px;
-}
-*/
 
 @media all and (min-width:960px){
 
@@ -134,7 +155,7 @@ header p {
         min-width: 350px;
         margin: auto;
         box-shadow: 20px 20px 50px grey;
-        padding:2rem 1rem 2rem 1rem;
+        padding:0 2rem;
     }
     .nav__item{
         order: 1;
@@ -146,5 +167,7 @@ header p {
     .toggle{
         display: none;
     }
+
+
 
 }

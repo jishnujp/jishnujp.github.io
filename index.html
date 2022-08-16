@@ -13,21 +13,21 @@
 </head>
 
 <body>
-        <nav class = "navbar">
-            <div class="logo"><a href="#">Resume</a></div>
-            <div class="nav__item"><a href="#education">Education</a></div> 
-            <div class="nav__item"><a href="#workshops">Workshops</a></div> 
-            <div class="nav__item"><a href="#projects">Projects</a></div>   
-            <div class="nav__item"><a href="#courses">Other Courses</a></div>    
-            <div class="toggle">
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
+    <nav class="navbar">
+        <div class="logo"><a href="#">Resume</a></div>
+        <div class="nav__item"><a href="#education">Education</a></div>
+        <div class="nav__item"><a href="#workshops">Workshops</a></div>
+        <div class="nav__item"><a href="#projects">Projects</a></div>
+        <div class="nav__item"><a href="#courses">Other Courses</a></div>
+        <div class="toggle">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-            
-        </nav>
+        </div>
+
+    </nav>
 
 
     </div>
@@ -45,50 +45,60 @@
             <h2>Education</h2>
             <div class="section__sub edu">
                 <h3>Bachelor's in Programming and Data Science.</h3>
-                <div class="edu__school">Indian Institute of Technology, Madras.</div>
-                <div class="edu__year">(2020 - now)</div>
+                <div class="edu__details">
+                    <div class="edu__school">Indian Institute of Technology, Madras.</div>
+                    <div class="edu__year">(2020 - now)</div>
+                </div>
             </div>
             <div class="section__sub edu">
                 <h3>Bachelor’s Degree in Electronics & Communication B.Tech </h3>
-                <div class="edu__school">College of Engineering, Chengannur.</div>
-                <div class="edu__year">(2015 - 2019)</div>
+                <div class="edu__details">
+                    <div class="edu__school">College of Engineering, Chengannur.</div>
+                    <div class="edu__year">(2015 - 2019)</div>
+                </div>
             </div>
             <div class="section__sub edu">
                 <h3>High School & Higher Secondary Education </h3>
-                <div class="edu__school">Christ Central School, Thiruvalla.</div>
-                <div class="edu__year">(2013 - 2015)</div>
+                <div class="edu__details">
+                    <div class="edu__school">Christ Central School, Thiruvalla.</div>
+                    <div class="edu__year">(2013 - 2015)</div>
+                </div>
             </div>
         </div>
         <hr>
         <div id="projects" class="section">
             <h2>Projects</h2>
-            <div class="section__sub gitpro">
-                <h3><a href="https://github.com/jishnujp/US_senate_roll_call" target="_blank">US_senate_roll_call</a>
+            <div class="section__sub project">
+                <h3 class="project__name"><a href="https://github.com/jishnujp/US_senate_roll_call"
+                        target="_blank">US_senate_roll_call</a>
                 </h3>
-                <p class="gitpro__desc">
+                <p class="project__desc">
                     A descriptive analysis of Roll Call Vote 117th Congress - 1st Session, on the Nomination
                     (Confirmation) of Tiffany P. Cunningham, to be United States Circuit Judge for the Federal Circuit .
                 </p>
             </div>
-            <div class="section__sub proj">
-                <h3><a href="/docs/bdm_capstone.pdf" target="_blank">BDM Capstone Project</a> </h3>
-                <p class="gitpro__desc">
+            <div class="section__sub project">
+                <h3 class="project__name"><a href="/docs/bdm_capstone.pdf" target="_blank">BDM Capstone Project</a>
+                </h3>
+                <p class="project__desc">
                     This was a part of the course "Business Data Management" at IITM. I had collected data from a local
                     business (Avocado Juice Bar) and performed some data analysis and gave business suggestions
                     according to my descriptive analysis.
                 </p>
             </div>
-            <div class="section__sub gitpro">
-                <h3><a href="https://github.com/jishnujp/vaccine_search" target="_blank">vaccine_search</a></h3>
-                <p class="gitpro__desc">
+            <div class="section__sub project">
+                <h3 class="project__name"><a href="https://github.com/jishnujp/vaccine_search"
+                        target="_blank">vaccine_search</a></h3>
+                <p class="project__desc">
                     A python app to find available slots for covid vaccine(in India) based on some search criterias.
                     (also has a python wrapper for api setu)
                 </p>
             </div>
 
-            <div class="section__sub gitpro">
-                <h3><a href="https://github.com/jishnujp/securityTools" target="_blank">securityTools </a> </h3>
-                <p class="gitpro__desc">
+            <div class="section__sub project">
+                <h3 class="project__name"><a href="https://github.com/jishnujp/securityTools"
+                        target="_blank">securityTools </a> </h3>
+                <p class="project__desc">
                     This is an attempt to make an app that uses the k anonimity model API of haveibeenpwned.com to
                     verify whether a password in already there in the leaked and publically available list.
                 </p>
@@ -99,20 +109,60 @@
 
         <div id="courses" class="section">
             <h2>Other Courses and Certificates</h2>
-            <div class="section__sub cert">
-                <p><a href="https://coursera.org/share/4bcf67532cd1ae69781e51db0bbb3445" target="_blank">
-                        Data Science Maths Skills</a></p>
-                <p><a href="https://coursera.org/share/bd0023b71386ae9c7246bad3d5b566a7" target="_blank">
-                        Data Science Toolbox</a></p>
-                <p><a href="https://archive.nptel.ac.in/content/noc/NOC22/SEM1/Ecertificates/106/noc22-cs30/Course/NPTEL22CS30S4373058402018648.jpg"
-                        target="_blank">
-                        Social Networks
-                    </a></p>
-                <p><a href="/docs/datascience_Foundation.pdf"
-                        target="_blank">
-                        Data Science Foundation
-                    </a></p>
+            <div class="section__sub">
+                <div class="course">
+                    <a href="http://">
+                        <h3 class="course__name">Data Science Foundation</h3>
+                    </a>
+                    <div class="uni">IIT Madras</div>
+                </div>
+                <div class="course__desc">
+                    This is the first level of Online BSc Degree in Programming and Data Science from IIT
+                    Madras. It comprises of Mathematics and Statistics topics that serves as a foundation for
+                    data analysis.
+                </div>
+
             </div>
+
+            <div class="section__sub">
+                <div class="course">
+                    <a href="http://">
+                        <h3 class="course__name">Social Networks</h3>
+                    </a>
+                    <div class="uni">IIT Madras</div>
+                </div>
+                <div class="course__desc">
+                    A study of social network graphs and revelation of their properties with the help of python.
+                </div>
+
+            </div>
+
+            <div class="section__sub">
+                <div class="course">
+                    <a href="http://">
+                        <h3 class="course__name">Data Science Toolbox</h3>
+                    </a>
+                    <div class="uni">Johns Hopkins</div>
+                </div>
+                <div class="course__desc">
+                    The course gives an overview of some basic tools that the data analysts work with.
+                </div>
+
+            </div>
+
+            <div class="section__sub">
+                <div class="course">
+                    <a href="http://">
+                        <h3 class="course__name">Data Science Maths Skills</h3>
+                    </a>
+                    <div class="uni">Duke University</div>
+                </div>
+                <div class="course__desc">
+                    A general introduction to core math and statistics that data science is built upon.
+                </div>
+
+            </div>
+
 
         </div>
         <hr>
@@ -150,7 +200,7 @@
     <footer>
 
     </footer>
-<script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
