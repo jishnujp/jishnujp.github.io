@@ -1,6 +1,6 @@
 body {
     max-zoom: 100%;
-    min-width: 350px;
+    min-width: 400px;
     color:	#303030;
 }
 
@@ -146,6 +146,21 @@ h3{
     padding-left: 1em;
 }
 
+.date,
+.sign{
+    text-align: right;
+    font-style: italic;
+}
+
+
+footer{
+    text-align: center;
+    width:100%;
+    background-color: rgb(109 66 131);
+
+    font-size: 20px;
+
+}
 
 @media all and (min-width:960px){
 
@@ -170,4 +185,10 @@ h3{
 
 
 
+}
+
+
+.social__media{
+    width: 30px;
+    padding: 20px 40px;
 }
