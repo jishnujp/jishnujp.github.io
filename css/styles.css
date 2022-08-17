@@ -142,8 +142,12 @@ h3{
 }
 
 .project__desc,
-.course__desc{
-    padding-left: 1em;
+.course__desc,
+.workshop__desc{
+    padding-left: 0em;
+    /*padding-left:1em;*/
+    padding-right: 1.5em;
+    /*    text-align: justify;*/
 }
 
 .date,
@@ -191,4 +195,9 @@ footer{
 .social__media{
     width: 30px;
     padding: 20px 40px;
+    opacity: 0.8;
+}
+
+.social__media:hover{
+    opacity: 1;
 }
