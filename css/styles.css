@@ -212,3 +212,30 @@ footer{
 .social__media:hover{
     opacity: 1;
 }
+/*------------------Print----------------------*/
+@media print{
+
+    body {
+
+        min-width: 960px;
+        margin: auto;
+        padding:0 2rem;
+    }
+    
+    .nav{
+        display: none;
+    }
+    .nav__item{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    .toggle{
+        display: none;
+    }
+    
+
+
+
+}
