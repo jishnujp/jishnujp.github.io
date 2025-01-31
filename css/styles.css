@@ -1,10 +1,10 @@
 body {
     max-zoom: 100%;
     min-width: 350px;
-    color:	#303030;
+    color: #303030;
 }
 
-*{
+* {
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -14,17 +14,18 @@ body {
     padding: 0 15px;
     font-size: 20px;
 
-  }
+}
 
-.nav__item a{
+.nav__item a {
     text-decoration: none;
     color: aliceblue;
 }
-.nav__item a:hover{
-    color:bisque;
+
+.nav__item a:hover {
+    color: bisque;
 }
 
-.bar{
+.bar {
     display: block;
     width: 25px;
     height: 3px;
@@ -33,40 +34,42 @@ body {
     background-color: whitesmoke;
 }
 
-.logo a{
+.logo a {
     font-family: 'Brush Script MT', cursive;
     font-style: italic;
     font-weight: bold;
     font-size: 2rem;
     text-decoration: none;
-    color:antiquewhite;
+    color: antiquewhite;
     padding-bottom: 0;
-    
+
 }
 
 /* mobile view */
-nav{
+nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
-nav a{
+
+nav a {
     display: block;
     padding: 15px 15px;
 }
 
-.nav__item{
-    order:2;
+.nav__item {
+    order: 2;
     width: 100%;
     text-align: center;
     display: none;
     border-bottom: 1px rgb(109, 100, 113) solid;
 }
 
-.active .nav__item{
+.active .nav__item {
     display: block;
 }
+
 /*---------------------------------------*/
 header {
     text-align: center;
@@ -89,56 +92,61 @@ header p {
     margin: auto;
 }
 
-.project__desc{
+.project__desc {
     margin: 0px;
 }
-h3{
+
+h3 {
     margin: 0px;
     margin-bottom: 0.5em;
 }
-.section__sub{
-    padding:1em 0em 0em 1em;
+
+.section__sub {
+    padding: 1em 0em 0em 1em;
 }
+
 .section__sub a {
     color: rgb(109 66 131);
     margin-bottom: 0.5em;
 }
+
 .section__sub {
     max-width: 100%;
     text-align: left;
- 
+
 }
 
-.edu h3{
+.edu h3 {
     margin: 0;
 }
+
 .course,
 .edu__details,
-.workshop{
-    display:flex;
+.workshop {
+    display: flex;
     height: fit-content;
 
 }
 
 .course a,
 .edu__school,
-.workshop a{
-    order:1;
-    width:100%
+.workshop a {
+    order: 1;
+    width: 100%
+}
 
-    
-}
-.course__name{
+.course__name {
     display: inline;
-    
+
 }
+
 .uni,
 .edu__year,
-.venue{
+.venue {
     width: 60%;
     font-size: small;
     text-align: right;
-    order:2;
+    order: 2;
     font-style: italic;
     color: darkgrey;
     height: fit-content;
@@ -146,30 +154,55 @@ h3{
 
 .project__desc,
 .course__desc,
-.workshop__desc{
+.workshop__desc {
     padding-left: 0em;
     /*padding-left:1em;*/
     padding-right: 1.5em;
     /*    text-align: justify;*/
 }
 
+.work h3 {
+    margin: 0;
+}
+
+.work__details {
+    display: flex;
+    height: fit-content;
+}
+
+.work__company {
+    order: 1;
+    width: 100%;
+}
+
+.work__year {
+    width: 60%;
+    font-size: small;
+    text-align: right;
+    order: 2;
+    font-style: italic;
+    color: darkgrey;
+    height: fit-content;
+}
+
+
 .date,
-.sign{
+.sign {
     text-align: right;
     font-style: italic;
 }
 
 
-footer{
+footer {
     text-align: center;
-    width:100%;
+    width: 100%;
     background-color: rgb(109 66 131);
 
     font-size: 20px;
 
 }
 
-@media all and (min-width:960px){
+@media all and (min-width:960px) {
 
     body {
 
@@ -177,64 +210,72 @@ footer{
         min-width: 350px;
         margin: auto;
         box-shadow: 20px 20px 50px grey;
-        padding:0 2rem;
+        padding: 0 2rem;
     }
-    .nav__item{
+
+    .nav__item {
         order: 1;
         position: relative;
         display: block;
         width: auto;
-        border-bottom:0px;
+        border-bottom: 0px;
     }
-    .toggle{
+
+    .toggle {
         display: none;
     }
 
 
 
 }
-.sign__container{
+
+.sign__container {
     padding-top: 10px;
 }
-.copy{
+
+.copy {
     font-size: small;
     color: lightgrey;
     opacity: 0.7;
     padding-bottom: 5px;
 }
 
-.social__media{
+.social__media {
     width: 30px;
     padding: 20px 40px;
     opacity: 0.8;
 }
 
-.social__media:hover{
+.social__media:hover {
     opacity: 1;
 }
+
 /*------------------Print----------------------*/
-@media print{
+@media print {
 
     body {
 
         min-width: 960px;
         margin: auto;
-        padding:0 2rem;
+        padding: 0 2rem;
     }
-    
-    .nav{
+
+    .nav {
         display: none;
     }
-    .nav__item{
+
+    .nav__item {
         display: none;
     }
-    .navbar{
+
+    .navbar {
         display: none;
     }
-    .toggle{
+
+    .toggle {
         display: none;
     }
-    
+
 
 
 
