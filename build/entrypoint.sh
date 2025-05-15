@@ -23,7 +23,11 @@ cd "$FRONTEND_DIR"
 npm install
 npm run build
 
-# Step 4: Move Vue dist to output volume
+# Step 4: Create CNAME file for custom domain
+echo "🌐 Creating CNAME file for custom domain..."
+echo "jishnujp.me" > "$FRONTEND_DIR/dist/CNAME"
+
+# Step 5: Move Vue dist to output volume
 echo "📂 Exporting build artifacts..."
 mkdir -p "$OUTPUT_DIR"
 cp -r "$FRONTEND_DIR/dist/." "$OUTPUT_DIR/"
