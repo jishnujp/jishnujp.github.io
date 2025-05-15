@@ -75,7 +75,7 @@
             "workItems": [
                 {
                     "title": "Enterprise Speech-to-Text Platform",
-                    "description": "Architected and deployed a scalable speech-to-text transcription platform utilizing OpenAI's Whisper model and AWS Transcribe services. Implemented a distributed queue-based architecture to handle high-volume transcription requests. Developed cross-platform browser extensions to streamline the transcription workflow, resulting in a 60% increase in transcription team productivity.",
+                    "description": "Architected and deployed a scalable speech-to-text transcription platform utilizing OpenAI's Whisper model and AWS Transcribe services. Implemented a distributed queue-based architecture to handle high-volume transcription requests. Developed cross-platform browser extensions to streamline the transcription workflow, resulting in a 4 times increase in transcription team productivity.",
                     "technologies": [
                         "OpenAI Whisper",
                         "AWS Transcribe",
@@ -86,7 +86,7 @@
                 },
                 {
                     "title": "AI-Powered Image Segmentation Service",
-                    "description": "Engineered a high-performance image segmentation service using Meta's Segment Anything Model (SAM). Implemented a microservices architecture with RabbitMQ for distributed processing across AWS instances. The system automated image segmentation tasks, reducing manual processing time by 75% while maintaining high accuracy.",
+                    "description": "Engineered a high-performance image segmentation service using Meta's Segment Anything Model (SAM). Implemented a microservices architecture with RabbitMQ for distributed processing across AWS instances. The system automated image segmentation tasks, reducing manual processing time while maintaining high accuracy.",
                     "technologies": [
                         "Meta SAM",
                         "RabbitMQ",
@@ -96,7 +96,7 @@
                 },
                 {
                     "title": "Legal Document Analysis System",
-                    "description": "Developed an advanced AI system for automated legal document analysis in the Verify 24x7 background verification platform. Implemented LLM agents to process and summarize court records, FIRs, and legal documents. The system reduced legal team processing time by 80% while maintaining high accuracy in document analysis and summary generation.",
+                    "description": "Developed an advanced AI system for automated legal document analysis in the Verify 24x7 background verification platform. Implemented LLM agents to process and summarize court records, FIRs, and legal documents. The system reduced legal team processing time while maintaining high accuracy in document analysis and summary generation.",
                     "technologies": [
                         "LLM",
                         "AI Agents",
