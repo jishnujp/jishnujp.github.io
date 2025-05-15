@@ -1,0 +1,7 @@
+.actrc
+*.env
+*.log
+*venv*
+dist/
+node_modules/
+frontend/public/resume.pdf

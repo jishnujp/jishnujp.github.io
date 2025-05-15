@@ -1,0 +1,230 @@
+{
+    "personal": {
+        "name": "Jishnu Jayaprakash",
+        "title": "Software Engineer",
+        "phone": "+91 77362 42182",
+        "website": "jishnujp.me",
+        "profileImage": "/thumbnail.jpg",
+        "social": {
+            "whatsapp": "https://wa.me/message/QF57I5BWGB7LC1",
+            "linkedin": "https://www.linkedin.com/in/jishnu-jayaprakash-813488156",
+            "github": "https://github.com/jishnujp",
+            "twitter": "https://x.com/Jishnu_J_P"
+        }
+    },
+    "workExperience": [
+        {
+            "title": "Software Development Consultant",
+            "company": "Valuepitch E Technologies",
+            "jobDescription": "Cloud infrastructure and DevOps operations for enterprise-grade applications, focusing on high-availability deployments and automated monitoring systems.",
+            "period": "Aug 2024 - Present",
+            "workItems": [
+                {
+                    "title": "Enterprise Frappe Infrastructure Management",
+                    "description": "Architect and maintain robust cloud infrastructure for self-hosted Frappe applications, primarily supporting the LendingCube product suite. Implemented high-availability configurations, automated backups, and disaster recovery protocols. Manage multiple in-house applications within the Frappe ecosystem, ensuring seamless integration and optimal performance.",
+                    "technologies": [
+                        "Frappe Framework",
+                        "Cloud Infrastructure",
+                        "DevOps",
+                        "High Availability"
+                    ]
+                },
+                {
+                    "title": "N8N Workflow Automation Infrastructure",
+                    "description": "Design and maintain scalable N8N server infrastructure for workflow automation across multiple products.",
+                    "technologies": [
+                        "N8N",
+                        "Server Management"
+                    ]
+                },
+                {
+                    "title": "Cloud Monitoring & Automation Platform",
+                    "description": "Developed and maintain comprehensive monitoring dashboards and automation systems for critical services supporting LendingCube and other enterprise products.",
+                    "technologies": [
+                        "Cloud Monitoring",
+                        "Infrastructure Automation",
+                        "Performance Optimization",
+                        "Alert Management"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Educator - Python for Finance",
+            "company": "NSE Academy & RCSS",
+            "jobDescription": "Delivered comprehensive Python programming curriculum for financial applications, focusing on practical implementation of market analysis tools and AI-driven financial modeling.",
+            "period": "Feb 2025 - April 2025",
+            "workItems": [
+                {
+                    "title": "Financial Technology Education Program",
+                    "description": "Led an intensive Python programming course for BCom and BBA students at Rajagiri College of Social Sciences, commissioned by NSE Academy. Developed and delivered curriculum covering stock market fundamentals, automated trading systems, and AI applications in financial analysis. Created hands-on projects including real-time price alert systems and market analysis tools, while managing course logistics through SpaceZee's educational platform.",
+                    "technologies": [
+                        "Python",
+                        "Financial Analysis",
+                        "AI/ML",
+                        "Market Data APIs"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Software Engineer",
+            "company": "Valuepitch E Technologies",
+            "jobDescription": "Spearheaded development of AI-powered automation systems and microservices architecture, significantly improving operational efficiency across multiple enterprise products.",
+            "period": "Nov 2022 - Aug 2024",
+            "workItems": [
+                {
+                    "title": "Enterprise Speech-to-Text Platform",
+                    "description": "Architected and deployed a scalable speech-to-text transcription platform utilizing OpenAI's Whisper model and AWS Transcribe services. Implemented a distributed queue-based architecture to handle high-volume transcription requests. Developed cross-platform browser extensions to streamline the transcription workflow, resulting in a 60% increase in transcription team productivity.",
+                    "technologies": [
+                        "OpenAI Whisper",
+                        "AWS Transcribe",
+                        "Queue Architecture",
+                        "Browser Extensions",
+                        "CI/CD"
+                    ]
+                },
+                {
+                    "title": "AI-Powered Image Segmentation Service",
+                    "description": "Engineered a high-performance image segmentation service using Meta's Segment Anything Model (SAM). Implemented a microservices architecture with RabbitMQ for distributed processing across AWS instances. The system automated image segmentation tasks, reducing manual processing time by 75% while maintaining high accuracy.",
+                    "technologies": [
+                        "Meta SAM",
+                        "RabbitMQ",
+                        "Microservices",
+                        "AWS"
+                    ]
+                },
+                {
+                    "title": "Legal Document Analysis System",
+                    "description": "Developed an advanced AI system for automated legal document analysis in the Verify 24x7 background verification platform. Implemented LLM agents to process and summarize court records, FIRs, and legal documents. The system reduced legal team processing time by 80% while maintaining high accuracy in document analysis and summary generation.",
+                    "technologies": [
+                        "LLM",
+                        "AI Agents",
+                        "Document Processing",
+                        "Natural Language Processing"
+                    ]
+                }
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Household Services",
+            "description": "A multi-user platform for booking home services, where customers can find professionals, book services, and manage requests. Professionals can list services, accept bookings, and manage details, while admins oversee the platform, approve providers, and resolve issues.",
+            "technologies": [
+                "Flask",
+                "Python"
+            ],
+            "repo": "https://github.com/21f1006194/Household-Services",
+            "demo": "https://www.youtube.com/watch?v=FHMdtaLWznI"
+        },
+        {
+            "name": "Business Analysis",
+            "description": "Data analysis project for a local business (Avocado Juice Bar) with business suggestions based on descriptive analysis.",
+            "technologies": [
+                "Data Analysis",
+                "Business Intelligence"
+            ],
+            "certificate": "https://raw.githubusercontent.com/jishnujp/avocado-analysis/main/public/certificate.pdf",
+            "repo": "https://github.com/jishnujp/avocado-analysis",
+            "demo": "https://www.youtube.com/watch?v=u5RuEhBsXKg"
+        },
+        {
+            "name": "US Senate Roll Call Analysis",
+            "description": "A descriptive analysis of Roll Call Vote 117th Congress - 1st Session, on the Nomination (Confirmation) of Tiffany P. Cunningham.",
+            "technologies": [
+                "Data Analysis",
+                "Python"
+            ],
+            "repo": "https://github.com/jishnujp/US_senate_roll_call"
+        },
+        {
+            "name": "Vaccine Search",
+            "description": "A python app to find available slots for covid vaccine(in India) based on some search criteria.",
+            "technologies": [
+                "Python",
+                "API Integration"
+            ],
+            "repo": "https://github.com/jishnujp/vaccine_search"
+        },
+        {
+            "name": "Security Tools",
+            "description": "An app that uses the k-anonymity model API of haveibeenpwned.com to verify whether a password is already in leaked and publicly available lists.",
+            "technologies": [
+                "Python",
+                "Security"
+            ],
+            "repo": "https://github.com/jishnujp/securityTools",
+            "link": "https://jishnujp.github.io/securityTools"
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor's in Programming and Data Science",
+            "institution": "Indian Institute of Technology, Madras",
+            "period": "Present"
+        },
+        {
+            "degree": "Bachelor's Degree in Electronics & Communication",
+            "institution": "College of Engineering, Chengannur",
+            "period": "2015 - 2019"
+        },
+        {
+            "degree": "High School & Higher Secondary Education",
+            "institution": "Christ Central School, Thiruvalla",
+            "period": "2013 - 2015"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Diploma in Data Science",
+            "institution": "IIT Madras",
+            "description": "Intermediary Level (Diploma) in the Bachelor's degree program. Coursework covered Mathematics, Statistics, Machine Learning, Business Analytics, and Data Management.",
+            "certificate": "/certificates/data_science_diploma.pdf"
+        },
+        {
+            "name": "Social Networks",
+            "institution": "IIT Madras",
+            "description": "A study of social network graphs and revelation of their properties with the help of python.",
+            "certificate": "https://archive.nptel.ac.in/content/noc/NOC22/SEM1/Ecertificates/106/noc22-cs30/Course/NPTEL22CS30S4373058402018648.jpg"
+        },
+        {
+            "name": "Data Science Toolbox",
+            "institution": "Johns Hopkins",
+            "description": "Overview of basic tools that data analysts work with.",
+            "certificate": "https://coursera.org/share/bd0023b71386ae9c7246bad3d5b566a7"
+        },
+        {
+            "name": "Data Science Maths Skills",
+            "institution": "Duke University",
+            "description": "Introduction to core math and statistics that data science is built upon.",
+            "certificate": "https://coursera.org/share/4bcf67532cd1ae69781e51db0bbb3445"
+        }
+    ],
+    "workshops": [
+        {
+            "name": "Machine Learning in Medical imaging",
+            "venue": "IIT Madras",
+            "description": "Theoretical workshop giving a brief overview of the applications of Machine Learning in diagnosing disease from medical images like MRI, CT Scans, Xrays etc.",
+            "certificate": "/certificates/mlmedic.jpg"
+        },
+        {
+            "name": "Ethical Hacking",
+            "venue": "Sree Buddha",
+            "description": "Hands-on step by step guide for discovering the vulnerabilities of a system, similar to a simplified version of CTF (Capture The Flag) task.",
+            "certificate": "/certificates/ethical_hacking.jpg"
+        },
+        {
+            "name": "FOSSMeet",
+            "venue": "NIT Calicut",
+            "description": "Introduction to Open Source Software possibilities and opportunities. Attended workshops on GoLang and web automation with selenium and python.",
+            "certificate": "/certificates/fossmeet.jpg"
+        },
+        {
+            "name": "PyCEC",
+            "venue": "CEC",
+            "description": "Display of Python's power and simplicity with hands-on sessions on Image processing, web scraping, and Machine Learning.",
+            "certificate": "/certificates/pycec.jpg"
+        }
+    ]
+}
