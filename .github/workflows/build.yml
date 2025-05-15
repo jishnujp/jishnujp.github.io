@@ -48,6 +48,7 @@ jobs:
           tags: resume-builder:latest
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache-new,mode=max
+          load: true
 
       # Temporary fix for https://github.com/docker/build-push-action/issues/252
       # and https://github.com/docker/build-push-action/issues/509
