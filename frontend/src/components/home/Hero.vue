@@ -22,6 +22,9 @@ const { personal } = portfolioData
         <a :href="personal.social.linkedin" target="_blank" class="hero__social-link">
           <i class="fab fa-linkedin"></i>
         </a>
+        <a :href="personal.social.email" target="_target" class="hero__social-link">
+          <i class="fas fa-envelope"></i>
+        </a>
         <a :href="personal.social.whatsapp" target="_blank" class="hero__social-link">
           <i class="fab fa-whatsapp"></i>
         </a>
