@@ -108,6 +108,18 @@
     ],
     "projects": [
         {
+            "name": "QuantQuest – Paradox ’25, IITM",
+            "description": "Ideated, designed, and led the development of QuantQuest, a statistics-based strategic game at Paradox ’25, IITM BS Degree's annual tech fest. Built games where participants exploited statistical edges and placed API-based bets using virtual wallets; managed concept design, game logic, API infrastructure, deployment, and logistics.",
+            "technologies": [
+                "Flask",
+                "Python",
+                "VueJS",
+                "GCP"
+            ],
+            "repo": "https://github.com/21f1006194/quant-quest",
+            "demo": "https://youtu.be/zgA83sge67Y?t=1211"
+        },
+        {
             "name": "Household Services",
             "description": "A multi-user platform for booking home services, where customers can find professionals, book services, and manage requests. Professionals can list services, accept bookings, and manage details, while admins oversee the platform, approve providers, and resolve issues.",
             "technologies": [
