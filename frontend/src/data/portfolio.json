@@ -9,10 +9,39 @@
             "linkedin": "https://www.linkedin.com/in/jishnu-jayaprakash-813488156",
             "github": "https://github.com/jishnujp",
             "twitter": "https://x.com/Jishnu_J_P",
-            "email": "mailto:contact@jishnujp.me"
+            "email": "mailto:contact@jishnujp.me",
+            "blog": "https://medium.com/@jishnu_jp"
         }
     },
     "workExperience": [
+        {
+            "title": "Chief Technology Officer",
+            "company": "Skillecta.ai",
+            "jobDescription": "Leading end-to-end product development and engineering strategy for Skillecta’s AI-driven learning platforms.",
+            "period": "Jul 2025 - Present",
+            "workItems": [
+                {
+                    "title": "AI-Native Learning Platform Development",
+                    "description": "Driving the architecture, design, and execution of Skillecta’s core learning products. Oversee engineering teams, define technical roadmaps, and ensure rapid delivery of features powered by LLMs, automation, and agent-based workflows.",
+                    "technologies": [
+                        "AI/LLMs",
+                        "Product Architecture",
+                        "Full-Stack Engineering",
+                        "Cloud Infrastructure"
+                    ]
+                },
+                {
+                    "title": "Engineering Leadership & Execution",
+                    "description": "Establish engineering processes, set coding standards, and ensure high-velocity development while maintaining quality. Mentor developers and guide the adoption of modern AI-assisted development practices.",
+                    "technologies": [
+                        "Team Leadership",
+                        "DevOps",
+                        "AI-Assisted Development",
+                        "Technical Strategy"
+                    ]
+                }
+            ]
+        },
         {
             "title": "Software Development Consultant",
             "company": "Valuepitch E Technologies",
@@ -109,6 +138,18 @@
     ],
     "projects": [
         {
+            "name": "Quiz Master",
+            "description":"Quiz Master is a multi-user quiz platform built for IIT Madras MAD-II coursework. Users take timed quizzes and track performance while admins manage content. Features include JWT authentication, automated email reminders, monthly reports, Redis caching, and background job processing using Flask and Vue.js.",
+            "technologies": [
+                "Flask",
+                "Celery",
+                "VueJS",
+                "Docker"
+            ],
+            "repo": "https://github.com/21f1006194/quant-quest",
+            "demo": "https://youtu.be/zgA83sge67Y?t=1211"
+        },
+        {
             "name": "QuantQuest – Paradox ’25, IITM",
             "description": "Ideated, designed, and led the development of QuantQuest, a statistics-based strategic game at Paradox ’25, IITM BS Degree's annual tech fest. Built games where participants exploited statistical edges and placed API-based bets using virtual wallets; managed concept design, game logic, API infrastructure, deployment, and logistics.",
             "technologies": [
@@ -117,8 +158,8 @@
                 "VueJS",
                 "GCP"
             ],
-            "repo": "https://github.com/21f1006194/quant-quest",
-            "demo": "https://youtu.be/zgA83sge67Y?t=1211"
+            "repo": "https://github.com/21f1006194/quizmaster",
+            "demo": "https://youtu.be/9D6rJ8Ubrwg"
         },
         {
             "name": "Household Services",

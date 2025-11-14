@@ -31,6 +31,9 @@ const { personal } = portfolioData
         <a :href="personal.social.twitter" target="_blank" class="hero__social-link">
           <i class="fab fa-twitter"></i>
         </a>
+        <a :href="personal.social.blog" target="_blank" class="hero__social-link">
+          <i class="fas fa-blog"></i>
+        </a>
       </div>
 
       <div class="hero__cta">
