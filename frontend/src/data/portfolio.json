@@ -15,29 +15,42 @@
     },
     "workExperience": [
         {
-            "title": "Chief Technology Officer",
-            "company": "Skillecta.ai",
-            "jobDescription": "Leading end-to-end product development and engineering strategy for Skillecta’s AI-driven learning platforms.",
-            "period": "Jul 2025 - Present",
+            "title": "Founding Engineer",
+            "company": "Skillecta",
+            "jobDescription": "Founding team member responsible for end-to-end technical ownership, from architecture design and hands-on development to deployment and shipping the product Blinxed.",
+            "period": "Jun 2025 - Present",
             "workItems": [
                 {
-                    "title": "AI-Native Learning Platform Development",
-                    "description": "Driving the architecture, design, and execution of Skillecta’s core learning products. Oversee engineering teams, define technical roadmaps, and ensure rapid delivery of features powered by LLMs, automation, and agent-based workflows.",
+                    "title": "Full-Stack Platform Development",
+                    "description": "Collaborated with co-founders to refine user stories and translated product requirements into a technical architecture. Built the frontend and backend of Blinxed from scratch, taking it from initial design to a shipped product.",
                     "technologies": [
-                        "AI/LLMs",
-                        "Product Architecture",
-                        "Full-Stack Engineering",
-                        "Cloud Infrastructure"
+                        "JIRA",
+                        "React",
+                        "Python",
+                        "FastAPI",
+                        "System Design", 
+                        "DB Design"
                     ]
                 },
                 {
-                    "title": "Engineering Leadership & Execution",
-                    "description": "Establish engineering processes, set coding standards, and ensure high-velocity development while maintaining quality. Mentor developers and guide the adoption of modern AI-assisted development practices.",
+                    "title": "AI Agent & LLM Integration",
+                    "description": "Designed and developed the AI agents powering Blinxed’s core features including LLM-driven workflows and automated pipelines that handle key product functionality end-to-end.",
                     "technologies": [
-                        "Team Leadership",
+                        "LLM Integration",
+                        "AI Agents Design and Development",
+                        "Streaming Responses",
+                        "Python"
+                    ]
+                },
+                {
+                    "title": "Infrastructure, Deployment & Team",
+                    "description": "Set up cloud infrastructure and CI/CD pipelines, and deployed the product to production. Hired and onboarded a small engineering team of 3, providing technical guidance and code reviews to keep the team moving quickly.",
+                    "technologies": [
+                        "GCP Cloud Run",
+                        "Docker",
                         "DevOps",
-                        "AI-Assisted Development",
-                        "Technical Strategy"
+                        "CI/CD",
+                        "Github Actions"
                     ]
                 }
             ]
