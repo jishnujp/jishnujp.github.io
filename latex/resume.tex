@@ -2,75 +2,78 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{enumitem}
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
 \usepackage{fontawesome}
 \usepackage{xcolor}
 \usepackage[
     colorlinks=true,
-    urlcolor=gray,
-    linkcolor=gray,
-    citecolor=gray
+    urlcolor=linkgray,
+    linkcolor=linkgray,
+    citecolor=linkgray
 ]{hyperref}
 \usepackage{titlesec}
 \usepackage{parskip}
 \setlength{\parindent}{0pt}
 
+% Colors
+\definecolor{accent}{HTML}{2D5986}
+\definecolor{linkgray}{HTML}{555555}
+
 % Section formatting
-\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\textcolor{accent}{\titlerule}]
 \titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+\titlespacing*{\section}{0pt}{1.2em}{0.5em}
 
 \begin{document}
 
 % Header
 \begin{center}
-    {\LARGE Jishnu Jayaprakash} \\
-    Software Engineer \\
-    \faEnvelopeO~\href{mailto:jishnu.jjp97@gmail.com}{\textcolor{gray}{jishnu.jjp97@gmail.com}} \quad
-    \faLinkedinSquare~\href{https://www.linkedin.com/in/jishnu-j-p}{\textcolor{gray}{jishnu-j-p}} \quad
-    \faTwitter~\href{https://x.com/Jishnu_J_P}{\textcolor{gray}{Jishnu\_J\_P}} \quad
-    \faGithub~\href{https://github.com/jishnujp}{\textcolor{gray}{jishnujp}} \quad
-    \faGlobe~\href{https://jishnujp.me}{\textcolor{gray}{jishnujp.me}} \quad
-
+    {\LARGE\bfseries\textcolor{accent}{Jishnu Jayaprakash}} \\[0.3em]
+    Software Engineer \textperiodcentered{} AI Systems \\[0.4em]
+    \faEnvelopeO~\href{mailto:jishnu.jjp97@gmail.com}{\textcolor{linkgray}{jishnu.jjp97@gmail.com}} \quad
+    \faLinkedinSquare~\href{https://www.linkedin.com/in/jishnu-j-p}{\textcolor{linkgray}{jishnu-j-p}} \quad
+    \faTwitter~\href{https://x.com/Jishnu_J_P}{\textcolor{linkgray}{Jishnu\_J\_P}} \quad
+    \faGithub~\href{https://github.com/jishnujp}{\textcolor{linkgray}{jishnujp}} \quad
+    \faGlobe~\href{https://jishnujp.me}{\textcolor{linkgray}{jishnujp.me}}
 \end{center}
 
-\vspace{0.5em}
+\vspace{0.6em}
 
 Engineer who builds AI-powered systems end-to-end. From architecture and infrastructure to product. Have taken products from zero to production as a founding team member and scaled systems across distributed teams.
 
-\vspace{0.5em}
+\vspace{0.2em}
 
 % EXPERIENCE
 \section*{EXPERIENCE}
 
 \textbf{Skillecta} \hfill \textit{Jun 2025 -- Present} \\
-\textit{Founding Engineer} \hfill \textit{Remote} \begin{itemize}[leftmargin=*]
-    \item Built and launched Blinxed, Skillecta’s flagship AI product, owning end-to-end architecture, backend, frontend, and production deployment.
-    
+\textit{Founding Engineer} \hfill \textit{Remote}
+\begin{itemize}[leftmargin=*, itemsep=2pt, topsep=4pt, parsep=0pt]
+    \item Built and launched Blinxed, Skillecta's flagship AI product, owning end-to-end architecture, backend, frontend, and production deployment.
     \item Developed AI agent workflows using LLM pipelines to power core product features and automate multi-step user interactions.
-    
     \item Architected and deployed cloud infrastructure on GCP with CI/CD pipelines, enabling automated production releases.
-    
     \item Recruited and led a team of 3 engineers, coordinating development and delivering product milestones from concept to launch.
-    
 \end{itemize}
 
-
 \textbf{Valuepitch E Technologies} \hfill \textit{Aug 2024 -- Present} \\
-\textit{Software Development Consultant} \hfill \textit{Remote} \begin{itemize}[leftmargin=*]
+\textit{Software Development Consultant} \hfill \textit{Remote}
+\begin{itemize}[leftmargin=*, itemsep=2pt, topsep=4pt, parsep=0pt]
     \item Architected and maintained high-availability cloud infrastructure for Frappe applications, implementing automated monitoring and disaster recovery systems.
     \item Designed scalable N8N workflow automation infrastructure and comprehensive cloud monitoring platforms for enterprise products.
     \item Managed multiple in-house applications within the Frappe ecosystem, ensuring seamless integration and optimal performance.
 \end{itemize}
 
-
 \textbf{NSE Academy \& RCSS} \hfill \textit{Feb 2025 -- Apr 2025} \\
-\textit{Educator - Python for Finance} \hfill \textit{Kochi, India} \begin{itemize}[leftmargin=*]
+\textit{Educator -- Python for Finance} \hfill \textit{Kochi, India}
+\begin{itemize}[leftmargin=*, itemsep=2pt, topsep=4pt, parsep=0pt]
     \item Led an intensive Python programming course covering stock market fundamentals, automated trading systems, and AI applications in financial analysis.
     \item Developed and delivered hands-on projects including real-time price alert systems and market analysis tools for BCom and BBA students.
 \end{itemize}
 
-
 \textbf{Valuepitch E Technologies} \hfill \textit{Nov 2022 -- Aug 2024} \\
-\textit{Software Engineer} \hfill \textit{Mumbai, India} \begin{itemize}[leftmargin=*]
+\textit{Software Engineer} \hfill \textit{Mumbai, India}
+\begin{itemize}[leftmargin=*, itemsep=2pt, topsep=4pt, parsep=0pt]
     \item Developed a scalable speech-to-text platform using OpenAI Whisper and AWS Transcribe, increasing transcription team productivity by 4 times.
     \item Built an image segmentation service using Meta's SAM with a RabbitMQ distributed architecture, reducing manual processing time while maintaining high accuracy.
     \item Built an automated legal document analysis system using LLM agents, reducing processing time while ensuring high accuracy in document analysis.
@@ -81,39 +84,39 @@ Engineer who builds AI-powered systems end-to-end. From architecture and infrast
 % PROJECTS
 \section*{PROJECTS}
 
-\textbf{QuantQuest – Paradox ‘25, IITM} \\
-Ideated, designed, and led the development of QuantQuest, a statistics based strategic game at Paradox ‘25, IITM BS Degree’s annual tech fest. Built games where participants exploited statistical edges and placed API driven bets using virtual wallets; managed concept design, game logic, API infrastructure, deployment, and logistics. \\
-\faGithub~\href{https://github.com/21f1006194/quant-quest}{\textcolor{gray}{repo}} \, \textbar{} \,
-\faPlayCircle~\href{https://youtu.be/zgA83sge67Y?t=1211}{\textcolor{gray}{demo}}
+\textbf{QuantQuest -- Paradox '25, IITM} \\
+Ideated, designed, and led the development of QuantQuest, a statistics based strategic game at Paradox '25, IITM BS Degree's annual tech fest. Built games where participants exploited statistical edges and placed API driven bets using virtual wallets; managed concept design, game logic, API infrastructure, deployment, and logistics. \\
+\faGithub~\href{https://github.com/21f1006194/quant-quest}{\textcolor{linkgray}{repo}} \, \textbar{} \,
+\faPlayCircle~\href{https://youtu.be/zgA83sge67Y?t=1211}{\textcolor{linkgray}{demo}}
 
 \textbf{Quiz Master} \\
 A quiz platform supporting multiple concurrent users, built for IIT Madras coursework. Features timed quizzes, performance tracking, JWT authentication, automated email reminders, Redis caching, and background task processing via Celery and Flask. \\
-\faGithub~\href{https://github.com/21f1006194/quizmaster}{\textcolor{gray}{repo}} \, \textbar{} \,
-\faPlayCircle~\href{https://youtu.be/9D6rJ8Ubrwg}{\textcolor{gray}{demo}}
+\faGithub~\href{https://github.com/21f1006194/quizmaster}{\textcolor{linkgray}{repo}} \, \textbar{} \,
+\faPlayCircle~\href{https://youtu.be/9D6rJ8Ubrwg}{\textcolor{linkgray}{demo}}
 
 \textbf{Household Services} \\
 A multi-user platform for booking and managing home services, enabling customers to find professionals, book appointments, and track requests. Admins oversee provider approvals and platform operations. Built with Flask and Python. \\
-\faGithub~\href{https://github.com/21f1006194/Household-Services}{\textcolor{gray}{repo}} \, \textbar{} \,
-\faPlayCircle~\href{https://www.youtube.com/watch?v=FHMdtaLWznI}{\textcolor{gray}{demo}}
+\faGithub~\href{https://github.com/21f1006194/Household-Services}{\textcolor{linkgray}{repo}} \, \textbar{} \,
+\faPlayCircle~\href{https://www.youtube.com/watch?v=FHMdtaLWznI}{\textcolor{linkgray}{demo}}
 
 \textbf{Business Analysis} \\
 Analyzed business data for a local juice bar, providing actionable insights and recommendations using descriptive analytics. Includes a certificate of completion. \\
-\faGithub~\href{https://github.com/jishnujp/avocado-analysis}{\textcolor{gray}{repo}} \, \textbar{} \,
-\faPlayCircle~\href{https://www.youtube.com/watch?v=u5RuEhBsXKg}{\textcolor{gray}{demo}} \, \textbar{} \,
-\faFilePdfO~\href{https://raw.githubusercontent.com/jishnujp/avocado-analysis/main/public/certificate.pdf}{\textcolor{gray}{certificate}} 
+\faGithub~\href{https://github.com/jishnujp/avocado-analysis}{\textcolor{linkgray}{repo}} \, \textbar{} \,
+\faPlayCircle~\href{https://www.youtube.com/watch?v=u5RuEhBsXKg}{\textcolor{linkgray}{demo}} \, \textbar{} \,
+\faFilePdfO~\href{https://raw.githubusercontent.com/jishnujp/avocado-analysis/main/public/certificate.pdf}{\textcolor{linkgray}{certificate}}
 
 \textbf{US Senate Roll Call Analysis} \\
 Performed data analysis on US Senate voting records, visualizing patterns and outcomes for legislative sessions using Python. \\
-\faGithub~\href{https://github.com/jishnujp/US_senate_roll_call}{\textcolor{gray}{repo}} 
+\faGithub~\href{https://github.com/jishnujp/US_senate_roll_call}{\textcolor{linkgray}{repo}}
 
 \textbf{Vaccine Search} \\
 Developed a Python app to search and notify users of available COVID-19 vaccine slots in India, integrating with public APIs for real-time results. \\
-\faGithub~\href{https://github.com/jishnujp/vaccine_search}{\textcolor{gray}{repo}} 
+\faGithub~\href{https://github.com/jishnujp/vaccine_search}{\textcolor{linkgray}{repo}}
 
 \textbf{Security Tools} \\
 Created a tool to check password exposure using the k-anonymity model and haveibeenpwned API. Includes a web interface for public use. \\
-\faGithub~\href{https://github.com/jishnujp/securityTools}{\textcolor{gray}{repo}} \, \textbar{} \,
-\faGlobe~\href{https://jishnujp.github.io/securityTools}{\textcolor{gray}{try it}} 
+\faGithub~\href{https://github.com/jishnujp/securityTools}{\textcolor{linkgray}{repo}} \, \textbar{} \,
+\faGlobe~\href{https://jishnujp.github.io/securityTools}{\textcolor{linkgray}{try it}}
 
 % EDUCATION
 \section*{EDUCATION}
@@ -125,38 +128,38 @@ Bachelor's Degree in Electronics \& Communication
 
 % CERTIFICATIONS
 \section*{CERTIFICATIONS}
-\textbf{Diploma in Data Science}, IIT Madras \hfill 
-\href{https://jishnujp.github.io/certificates/data_science_diploma.pdf}{\faFilePdfO~\textcolor{gray}{Dec 2024}} \\
-Intermediary Level (Diploma) in the Bachelor's degree program. Coursework: Mathematics, Statistics, Machine Learning, Business Analytics, Data Management. 
+\textbf{Diploma in Data Science}, IIT Madras \hfill
+\href{https://jishnujp.github.io/certificates/data_science_diploma.pdf}{\faFilePdfO~\textcolor{linkgray}{Dec 2024}} \\
+Intermediary Level (Diploma) in the Bachelor's degree program. Coursework: Mathematics, Statistics, Machine Learning, Business Analytics, Data Management.
 
 \textbf{Social Networks}, IIT Madras \hfill
-\href{https://archive.nptel.ac.in/content/noc/NOC22/SEM1/Ecertificates/106/noc22-cs30/Course/NPTEL22CS30S4373058402018648.jpg}{\faFilePdfO~\textcolor{gray}{Apr 2022}} \\
-Studied social network graphs and their properties using Python. 
+\href{https://archive.nptel.ac.in/content/noc/NOC22/SEM1/Ecertificates/106/noc22-cs30/Course/NPTEL22CS30S4373058402018648.jpg}{\faFilePdfO~\textcolor{linkgray}{Apr 2022}} \\
+Studied social network graphs and their properties using Python.
 
 \textbf{Data Science Toolbox}, Johns Hopkins \hfill
-\href{https://coursera.org/share/bd0023b71386ae9c7246bad3d5b566a7}{\faFilePdfO~\textcolor{gray}{Aug 2020}}\\
-Overview of essential tools for data analysts. 
+\href{https://coursera.org/share/bd0023b71386ae9c7246bad3d5b566a7}{\faFilePdfO~\textcolor{linkgray}{Aug 2020}}\\
+Overview of essential tools for data analysts.
 
 \textbf{Data Science Maths Skills}, Duke University \hfill
-\href{https://coursera.org/share/4bcf67532cd1ae69781e51db0bbb3445}{\faFilePdfO~\textcolor{gray}{Aug 2020}}\\
-Introduction to core math and statistics for data science. 
+\href{https://coursera.org/share/4bcf67532cd1ae69781e51db0bbb3445}{\faFilePdfO~\textcolor{linkgray}{Aug 2020}}\\
+Introduction to core math and statistics for data science.
 
 % WORKSHOPS
 \section*{WORKSHOPS}
 \textbf{Machine Learning in Medical Imaging}, IIT Madras \hfill
-\href{https://jishnujp.github.io/certificates/mlmedic.jpg}{\faFilePdfO~\textcolor{gray}{May 2022}} \\
-Overview of ML applications in medical image diagnosis. 
+\href{https://jishnujp.github.io/certificates/mlmedic.jpg}{\faFilePdfO~\textcolor{linkgray}{May 2022}} \\
+Overview of ML applications in medical image diagnosis.
 
 \textbf{Ethical Hacking}, Sree Buddha \hfill
-\href{https://jishnujp.github.io/certificates/ethical_hacking.jpg}{\faFilePdfO~\textcolor{gray}{Mar 2018}} \\
-Hands-on guide to discovering system vulnerabilities. 
+\href{https://jishnujp.github.io/certificates/ethical_hacking.jpg}{\faFilePdfO~\textcolor{linkgray}{Mar 2018}} \\
+Hands-on guide to discovering system vulnerabilities.
 
 \textbf{FOSSMeet}, NIT Calicut \hfill
-\href{https://jishnujp.github.io/certificates/fossmeet.jpg}{\faFilePdfO~\textcolor{gray}{Mar 2017}} \\
-Workshops on GoLang and web automation with Selenium and Python. 
+\href{https://jishnujp.github.io/certificates/fossmeet.jpg}{\faFilePdfO~\textcolor{linkgray}{Mar 2017}} \\
+Workshops on GoLang and web automation with Selenium and Python.
 
 \textbf{PyCEC}, CEC \hfill
-\href{https://jishnujp.github.io/certificates/pycec.jpg}{\faFilePdfO~\textcolor{gray}{Mar 2017}} \\
-Hands-on sessions on image processing, web scraping, and ML with Python. 
+\href{https://jishnujp.github.io/certificates/pycec.jpg}{\faFilePdfO~\textcolor{linkgray}{Mar 2017}} \\
+Hands-on sessions on image processing, web scraping, and ML with Python.
 
 \end{document}
