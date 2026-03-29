@@ -1,0 +1,29 @@
+.section {
+  padding: var(--space-20) var(--space-8);
+  border-top: 1px solid var(--color-border-subtle);
+}
+
+.inner {
+  max-width: var(--max-width-content);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-base);
+  font-weight: var(--font-semibold);
+  letter-spacing: var(--tracking-snug);
+  color: var(--color-bg-primary);
+  background: var(--color-text-primary);
+  border-radius: var(--radius-sm);
+  padding: 12px 28px;
+  transition: opacity var(--transition-fast);
+}
+
+.btn:hover {
+  opacity: 0.88;
+}

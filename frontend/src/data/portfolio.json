@@ -2,6 +2,8 @@
     "personal": {
         "name": "Jishnu Jayaprakash",
         "title": "Software Engineer",
+        "tagline": "Crafting scalable software solutions and AI agents that make real impact.",
+        "subtitle": "Clean code fanatic with a side of perfectionism. ✨",
         "website": "jishnujp.me",
         "profileImage": "/thumbnail.jpg",
         "social": {
@@ -151,6 +153,18 @@
     ],
     "projects": [
         {
+            "name": "QuantQuest – Paradox ‘25, IITM",
+            "description": "Ideated, designed, and led the development of QuantQuest, a statistics-based strategic game at Paradox ‘25, IITM BS Degree’s annual tech fest. Built games where participants exploited statistical edges and placed API-based bets using virtual wallets; managed concept design, game logic, API infrastructure, deployment, and logistics.",
+            "technologies": [
+                "Flask",
+                "Python",
+                "VueJS",
+                "GCP"
+            ],
+            "repo": "https://github.com/21f1006194/quant-quest",
+            "demo": "https://youtu.be/zgA83sge67Y?t=1211"
+        },
+        {
             "name": "Quiz Master",
             "description":"Quiz Master is a multi-user quiz platform built for IIT Madras MAD-II coursework. Users take timed quizzes and track performance while admins manage content. Features include JWT authentication, automated email reminders, monthly reports, Redis caching, and background job processing using Flask and Vue.js.",
             "technologies": [
@@ -161,18 +175,6 @@
             ],
             "repo": "https://github.com/21f1006194/quizmaster",
             "demo": "https://youtu.be/9D6rJ8Ubrwg"
-        },
-        {
-            "name": "QuantQuest – Paradox ’25, IITM",
-            "description": "Ideated, designed, and led the development of QuantQuest, a statistics-based strategic game at Paradox ’25, IITM BS Degree's annual tech fest. Built games where participants exploited statistical edges and placed API-based bets using virtual wallets; managed concept design, game logic, API infrastructure, deployment, and logistics.",
-            "technologies": [
-                "Flask",
-                "Python",
-                "VueJS",
-                "GCP"
-            ],
-            "repo": "https://github.com/21f1006194/quant-quest",
-            "demo": "https://youtu.be/zgA83sge67Y?t=1211"
         },
         {
             "name": "Household Services",
@@ -234,11 +236,6 @@
             "degree": "Bachelor's Degree in Electronics & Communication",
             "institution": "College of Engineering, Chengannur",
             "period": "2015 - 2019"
-        },
-        {
-            "degree": "High School & Higher Secondary Education",
-            "institution": "Christ Central School, Thiruvalla",
-            "period": "2013 - 2015"
         }
     ],
     "certifications": [

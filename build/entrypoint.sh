@@ -13,12 +13,12 @@ cd "$LATEX_DIR"
 mkdir -p output
 pdflatex -output-directory=output resume.tex
 
-# Step 2: Copy PDF to Vue public/ folder
-echo "📎 Copying PDF to Vue public folder..."
+# Step 2: Copy PDF to React public/ folder
+echo "📎 Copying PDF to React public folder..."
 cp "$LATEX_DIR/output/resume.pdf" "$PUBLIC_PDF_PATH"
 
-# Step 3: Build Vue frontend
-echo "📦 Building Vue frontend..."
+# Step 3: Build React frontend
+echo "📦 Building React frontend..."
 cd "$FRONTEND_DIR"
 npm install
 npm run build
@@ -27,7 +27,7 @@ npm run build
 echo "🌐 Creating CNAME file for custom domain..."
 echo "jishnujp.me" > "$FRONTEND_DIR/dist/CNAME"
 
-# Step 5: Move Vue dist to output volume
+# Step 5: Move React dist to output volume
 echo "📂 Exporting build artifacts..."
 mkdir -p "$OUTPUT_DIR"
 cp -r "$FRONTEND_DIR/dist/." "$OUTPUT_DIR/"
