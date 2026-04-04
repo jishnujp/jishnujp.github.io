@@ -69,7 +69,7 @@ export function Hero({ personal }: HeroProps) {
 
         <div className={styles.imageWrapper}>
           <img
-            src="/jishnu2.jpg"
+            src="/jishnu.jpeg"
             alt="Jishnu Jayaprakash"
             className={styles.profileImage}
             loading="eager"
